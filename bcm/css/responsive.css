@@ -1,0 +1,170 @@
+@media (min-width: 768px) {
+    .banner {background-position: top center !important;}
+    .banner-head {
+        font-size: 4em;
+    }
+    .pricing-table {
+        margin-bottom: 0;
+    }
+
+    .banner-form h1,
+    .banner-form h2 {text-align: left;}
+
+
+    .video .video-block {margin-top: -25px;}
+    .video .video-screen {width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 880px){
+
+    .lp-head-text h1 {width: 90%;}
+
+    #keypane .key-icon img {padding: 15px 20px 0 30px;}
+}
+
+@media (max-width: 767px){
+
+    .banner {background-position: -930px 0px; height: auto !important;}
+    .banner h1 {padding: 5px 0 0 0;}
+    .banner h3 {padding: 0px 5px 20px 0;}
+    .banner .lp-head-bar {height: 0;}
+
+    .banner h2 {font-size: 28px; line-height: 36px;}
+
+    .banner-video {display: block;}
+
+    .banner-form {margin-bottom: 35px; display: block;}
+
+    .banner-form-content {padding: 0; border-left: 0; margin-left:0;}
+
+    .banner-form .ctatext {width: 90%; margin-top: 20px;}
+
+    .banner-form .input-row {margin: 0;}
+
+    .banner-form .but-submit {float: none;}
+
+    .privacy-policy {float: none; margin-top: 10px;}
+
+    .call-section {margin-top: 0;}
+    
+    .banner-form h1,
+    .banner-form h2 {text-align: center;}
+
+    .banner-form h1 {font-size: 3em;}
+
+    .banner-form p {margin: 0;}
+
+    .banner-form .form-fields {margin-top: 20px;}
+
+    .banner-form .checkbox-row {line-height: 1.3em; width: 80%; margin: 0 auto; }
+
+    .banner-form .input-row {margin: 0 auto; width: 70%;}
+
+    .video .video-block {border-top: 1px solid #e5e5e5;padding-top: 20px}
+    .video .video-screen {display: inline-block; vertical-align: middle; width: 35%;}
+    .video .video-link {display: inline-block !important; width: 45%; margin-left: 20px; vertical-align: middle;}
+
+    .video .video-block {margin: 0;}
+    .testimonial-block {width:100%; margin-bottom: 20px;}
+
+    .pure-u-md-1-24 {display: none;}
+    
+    #testimonialwrap {padding: 30px 0;}
+
+    #testimonialwrap .testimonial-left {border-right: none; text-align: center;}
+
+    #testimonialwrap h2 {font-size: 32px; padding: 10px 30px 0px 30px;}
+    #testimonialwrap p {font-size: 16px; padding: 0px 30px 0px 30px;}
+
+    #keypane .key-icon {float: left; width: 15%;}
+    #keypane .key-icon img {padding: 15px 0 0 20px;}
+    #keypane .key-content {float: left; width: 85%;}
+    #keypane .key-content p {padding: 0 10px 40px 10px;}
+
+}
+
+@media (min-width: 668px) and (max-width: 767px){
+
+    .banner-form .input-row {margin: 0 auto; width: 60%;}
+}
+
+@media (max-width: 567px){
+
+    header .logo {text-align: center;}
+
+    .lp-wrapper {padding: 30px 30px 20px 30px;}
+
+    .banner-form .input-row {margin: 0 auto; width: 90%;}
+
+    .copyright {font-size: 10px;}
+
+    #keypane .key-icon {float: left; width: 20%;}
+    #keypane .key-icon img {padding: 15px 0 0 20px;}
+    #keypane .key-content {float: left; width: 80%;}
+    #keypane .key-content h3{padding: 20px 0 10px 0;}
+    #keypane .key-content p {padding: 0 10px 40px 0;}
+
+    #samplevideo h2 {font-size: 30px;}
+
+}
+
+/*
+ * -- PHONE MEDIA QUERIES --
+ */
+@media (max-width: 480px){
+
+    article {padding: 0 10px;}
+
+    .lp-wrapper {padding: 30px 20px 20px 20px;}
+
+    .banner h2 {font-size: 25px; line-height: 30px;}
+
+    .banner h1 {font-size: 30px;}
+    .banner h3 {font-size: 16px;}
+    .banner-form .but-submit {font-size: 1.2em;}
+    .banner-form input {width: 100%;}
+    .banner-form label {font-size: 14px;}
+    .banner-form .input-row {width: 100%;}
+    .banner-form .form-signup {margin: 0 !important;}
+    .banner-form .checkbox-row p {width: 79%;}
+    .banner-form .input-row {margin: 0 auto; width: 100%;}
+
+    .banner-form .or-div {width: 100%;}
+
+    .banner-video-content {padding: 0;}
+
+    .ctatext p {font-size: .9em;}    
+
+    #testimonialwrap h2 {font-size: 32px; padding: 10px 20px 0px 20px;}
+    #testimonialwrap p {font-size: 16px; padding: 0px 20px;}
+
+    #keypane .key-icon {float: none; width: 90%; margin: 0 auto; text-align: center;}
+    #keypane .key-icon img {padding: 0;}
+    #keypane .key-content {float: none; width: 90%; margin: 0 auto; text-align: center;}
+    #keypane .key-content h3{padding: 20px 0 10px 0;}
+    #keypane .key-content p {padding: 0 10px 40px 0;}
+
+    .sample-video-content {padding: 0;}
+    #samplevideo h2 {font-size: 28px;}
+}
+@media (min-width: 480px) {    
+    header {height: 102px;}
+    .banner {height: auto; display: block; }
+}
+
+@media (max-width: 320px){
+    header {text-align: center;}    
+
+    .banner-form .checkbox-row {width: 100%;}
+    
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .banner-form .form-signup {margin: 10px 30px;}    
+}
+
+@media (min-width: 320px) {
+
+    header .logo img {max-width: 220px;}   
+}
